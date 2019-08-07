@@ -21,7 +21,7 @@ export default class AuthStore {
     const responseType = "&response_type=token";
     const redirectURIdev = "&redirect_uri=http://localhost:3000/redirect";
     const redirectURIProd =
-      "&redirect_uri=https://recommend-songs.onrender.com/redirect";
+      "&redirect_uri=https://spotify-song-recommender.onrender.com/redirect";
     const redirectURI =
       process.env.NODE_ENV === "production" ? redirectURIProd : redirectURIdev;
     const scopes =
