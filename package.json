@@ -2,7 +2,7 @@
   "name": "recommend-songs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://recommend-songs.onrender.com/",
+  "homepage": "https://spotify-song-recommender.onrender.com/",
   "dependencies": {
     "@types/jest": "24.0.16",
     "@types/node": "12.6.9",
